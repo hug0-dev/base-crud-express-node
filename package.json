@@ -1,0 +1,27 @@
+{
+  "name": "tp",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hug0-dev/Boutique-en-ligne#readme",
+  "bugs": {
+    "url": "https://github.com/hug0-dev/Boutique-en-ligne/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hug0-dev/Boutique-en-ligne.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mariadb": "^3.4.0",
+    "nodemon": "^3.1.9",
+    "sequelize": "^6.37.7"
+  }
+}
